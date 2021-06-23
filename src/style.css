@@ -1,0 +1,114 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+  font: inherit;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  font: 16px/1.5 'Roboto', sans-serif;
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  transition: 300ms;
+}
+
+a:hover,a:focus {
+  outline: none;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  padding: 0;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+button:hover,
+button:focus,
+input:hover,
+input:focus {
+  outline: none
+}
+
+ul {
+  width: 720px;
+}
+
+h1 {
+  margin: 10px;
+  font-size: 24px;
+  font-weight: 900;
+  border-bottom: 3px solid;
+}
+
+h3 {
+  margin: 10px;
+  font-size: 18px;
+  font-weight: 900;
+  border-bottom: 3px solid;
+}
+ 
+li {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.button {
+  font-size: 12px;
+  border: 1px solid red;
+  border-radius: 3px;
+  background-color: rgb(218, 131, 119);
+  margin-right: 5px;
+  padding: 3px;
+}
+
+.delete {
+  display: inline-block;
+  border: 1px solid red;
+  border-radius: 3px;
+  width: 15px;
+  height: 15px;
+  font-size: 10px;
+  margin-left: 5px;
+}
+
+form {
+  margin-left: 10px;
+}
+
+label {
+  display: block;
+  margin: 10px 10px 10px 0;
+}
+
+input {  
+  display: block;
+  width: 720px;
+}
+
+input:invalid, .error {
+  border: 2px solid red;
+}
